@@ -34,4 +34,4 @@ sail artisan migrate
 sail artisan db:seed
 ```
 
-### Use in browser: `localost`
+### Use in browser: `localhost`
