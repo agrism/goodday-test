@@ -33,3 +33,5 @@ sail artisan migrate
 ```bash
 sail artisan db:seed
 ```
+
+### Use in browser: `localost`
