@@ -18,7 +18,7 @@ class PermissionSeeder extends Seeder
     public function run(): void
     {
         Permission::query()->updateOrCreate([
-            'name' => PermissionEnums::NEWS_MANAGE->value,
+            'name' => PermissionEnums::NEWS_VIEW->value,
             'guard_name' => 'web',
         ]);
 

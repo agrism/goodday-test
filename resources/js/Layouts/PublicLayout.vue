@@ -49,7 +49,7 @@ const logout = () => {
 
 
                     <div v-if="canLogin" class="hidden fixed top-0 right-0 px-6 py-4 sm:block z-40">
-                        <Link v-if="$page.props.user" :href="route('profile.show')"
+                        <Link v-if="$page.props.user && $page.props.user.id" :href="route('profile.show')"
                               class="text-sm text-gray-700 dark:text-gray-500 underline">Profile
                         </Link>
 
