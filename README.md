@@ -35,3 +35,6 @@ sail artisan db:seed
 ```
 
 ### Use in browser: `localhost`
+
+### Demo 
+[Demo page link: goodday.kilograms.lv](https://goodday.kilograms.lv)
